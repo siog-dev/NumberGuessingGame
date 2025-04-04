@@ -1,6 +1,8 @@
 package ie.atu.sw;
 
 import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
+
 import static java.lang.System.*;
 
 public class NumberGuessingGame {
@@ -18,9 +20,11 @@ public class NumberGuessingGame {
 		out.println("******************************");
 		
 		Random rand = new Random();
+		ThreadLocalRandom random = ThreadLocalRandom.current();
 		
-		number = (int)(Math.random() * 100); 
+		number = (int)(Math.random() * 100);
 		number = rand.nextInt(1, 101);
+		number = random.nextInt(1, 101);
 	}
 	
 }
