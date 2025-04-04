@@ -19,7 +19,7 @@ public class NumberGuessingGame {
 		
 		Random rand = new Random();
 		
-		number = (int)(Math.random() * 100); //The brackets matter
+		number = (int)(Math.random() * 100); 
 		number = rand.nextInt(1, 101);
 	}
 	
