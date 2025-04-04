@@ -33,6 +33,16 @@ public class NumberGuessingGame {
 			
 			int guess = Integer.parseInt(s.next());
 			
+			if (guess == number) {
+				
+			}else if () {
+				
+			}else {
+				
+			}
+			
+			
+			
 			counter++;
 		}
 	}
