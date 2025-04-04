@@ -1,6 +1,7 @@
 package ie.atu.sw;
 
 import java.util.Scanner;
+import static java.lang.System.*;
 
 public class NumberGuessingGame {
 	private static final int MAX_GUESSES = 12;
@@ -12,7 +13,7 @@ public class NumberGuessingGame {
 	}
 	
 	public void start() {
-		
+		out.println();
 	}
 	
 }
