@@ -45,6 +45,10 @@ public class NumberGuessingGame {
 			counter++;
 			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");
 		}
+		
+		if (notGuessed) {
+			out.println("Too bad. The correct answer was " + number);
+		}
 	}
 	
 }
