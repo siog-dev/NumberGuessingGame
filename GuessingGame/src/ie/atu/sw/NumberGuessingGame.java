@@ -43,6 +43,7 @@ public class NumberGuessingGame {
 			}
 			
 			counter++;
+			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");
 		}
 	}
 	
