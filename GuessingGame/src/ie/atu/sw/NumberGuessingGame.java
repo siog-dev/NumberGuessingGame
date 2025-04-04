@@ -16,6 +16,8 @@ public class NumberGuessingGame {
 		out.println("******************************");
 		out.println("**   Number Guessing Game   **");
 		out.println("******************************");
+		
+		number = (int)(Math.random() * 100); //The brackets matter
 	}
 	
 }
