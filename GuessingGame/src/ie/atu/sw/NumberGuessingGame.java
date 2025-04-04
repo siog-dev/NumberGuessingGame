@@ -37,12 +37,10 @@ public class NumberGuessingGame {
 				out.println("Correct! Well done :)");
 				notGuessed = false;
 			}else if (guess > number) {
-				
+				out.println("Too high!");
 			}else {
-				
+				out.println("Too low!");
 			}
-			
-			
 			
 			counter++;
 		}
