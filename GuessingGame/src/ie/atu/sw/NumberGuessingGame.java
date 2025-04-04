@@ -25,6 +25,12 @@ public class NumberGuessingGame {
 		//number = (int)(Math.random() * 100); //option 1: Simple, error prone
 		//number = rand.nextInt(1, 101); //option 2: Much better
 		number = random.nextInt(1, 101); //option 3: The best - most "random"
+		
+		int counter = 0;
+		while (condition) {
+			
+			counter++;
+		}
 	}
 	
 }
