@@ -1,7 +1,6 @@
 package ie.atu.sw;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 import static java.lang.System.*;
 
 public class NumberGuessingGame {
