@@ -19,12 +19,12 @@ public class NumberGuessingGame {
 		out.println("**   Number Guessing Game   **");
 		out.println("******************************");
 		
-		Random rand = new Random();
-		ThreadLocalRandom random = ThreadLocalRandom.current();
+		Random rand = new Random(); //option 2
+		ThreadLocalRandom random = ThreadLocalRandom.current(); //option 3
 		
-		number = (int)(Math.random() * 100);
-		number = rand.nextInt(1, 101);
-		number = random.nextInt(1, 101);
+		number = (int)(Math.random() * 100); //option 1: Simple, error prone
+		number = rand.nextInt(1, 101); //option 2: Much better
+		number = random.nextInt(1, 101); //option 3: The best - most "random"
 	}
 	
 }
