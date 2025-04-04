@@ -34,7 +34,8 @@ public class NumberGuessingGame {
 			int guess = Integer.parseInt(s.next());
 			
 			if (guess == number) {
-				
+				out.println("Correct! Well done :)");
+				notGuessed = false;
 			}else if (guess > number) {
 				
 			}else {
