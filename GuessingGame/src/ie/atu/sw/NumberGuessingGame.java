@@ -27,7 +27,7 @@ public class NumberGuessingGame {
 		number = random.nextInt(1, 101); //option 3: The best - most "random"
 		
 		int counter = 0;
-		while (condition) {
+		while (counter < MAX_GUESSES) {
 			
 			counter++;
 		}
