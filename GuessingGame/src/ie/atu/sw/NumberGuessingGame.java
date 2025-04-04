@@ -13,7 +13,9 @@ public class NumberGuessingGame {
 	}
 	
 	public void start() {
-		out.println();
+		out.println("******************************");
+		out.println("**   Number Guessing Game   **");
+		out.println("******************************");
 	}
 	
 }
