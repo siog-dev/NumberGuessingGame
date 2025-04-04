@@ -31,6 +31,8 @@ public class NumberGuessingGame {
 		while (counter < MAX_GUESSES && notGuessed) {
 			out.println("Guess a number between 1 and 100>");
 			
+			int guess = Integer.parseInt(s.next());
+			
 			counter++;
 		}
 	}
