@@ -35,7 +35,7 @@ public class NumberGuessingGame {
 			
 			if (guess == number) {
 				
-			}else if () {
+			}else if (guess > number) {
 				
 			}else {
 				
