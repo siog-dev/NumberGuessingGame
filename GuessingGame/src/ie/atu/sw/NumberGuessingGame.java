@@ -8,7 +8,7 @@ public class NumberGuessingGame {
 	private int number;
 	
 	public NumberGuessingGame() {
-		
+		s = new Scanner(System.in);
 	}
 	
 	public void start() {
