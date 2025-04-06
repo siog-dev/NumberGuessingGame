@@ -30,7 +30,7 @@ public class NumberGuessingGame {
 		int counter = 0;
 		
 		//FOR LOOP
-		
+		/*
 		for (int i = 0; i < MAX_GUESSES && notGuessed; i++) {
 			
 			out.println("Guess a number between 1 and 100");
@@ -55,11 +55,11 @@ public class NumberGuessingGame {
 			out.println("Too bad. The correct answer was " + number);
 			
 		}
+		*/
 		
 		//DO LOOP
 		/*
 		do {
-			
 			out.println("Guess a number between 1 and 100>");
 			
 			int guess = Integer.parseInt(s.next());
@@ -72,16 +72,13 @@ public class NumberGuessingGame {
 			}else {
 				out.println("Too low!");
 			}
-			
 			counter++;
 			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");
-			
-
-			if (notGuessed) {
-				out.println("Too bad. The correct answer was " + number);
-			}
-			
 		} while (counter < MAX_GUESSES && notGuessed);
+
+		if (notGuessed) {
+			out.println("Too bad. The correct answer was " + number);
+		}
 		*/
 		
 		//WHILE LOOP
@@ -108,7 +105,6 @@ public class NumberGuessingGame {
 			out.println("Too bad. The correct answer was " + number);
 		}
 		*/
-		
 	}
 	
 }
