@@ -27,12 +27,11 @@ public class NumberGuessingGame {
 		number = random.nextInt(1, 101); //option 3: The best - most "random"
 		
 		boolean notGuessed = true;
-		int counter = 0;
+		//int counter = 0;
 		
 		//FOR LOOP
-		for (int i = 0; i < MAX_GUESSES && notGuessed; i++) {
-			
-			out.println("Guess a number between 1 and 100");
+		for (int counter = 0; counter < MAX_GUESSES && notGuessed; counter++) {
+			out.println("Guess a number between 1 and 100>");
 			
 			int guess = Integer.parseInt(s.next());
 			
@@ -44,11 +43,9 @@ public class NumberGuessingGame {
 			}else {
 				out.println("Too low!");
 			}
-			
-			counter++;
-			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");
-			
-			}
+			//counter++;
+			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");	
+		}
 		
 		if (notGuessed) {
 			out.println("Too bad. The correct answer was " + number);
