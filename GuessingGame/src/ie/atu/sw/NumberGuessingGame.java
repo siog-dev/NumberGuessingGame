@@ -29,6 +29,7 @@ public class NumberGuessingGame {
 		boolean notGuessed = true;
 		int counter = 0;
 		
+		//DO LOOP
 		do {
 			
 			out.println("Guess a number between 1 and 100>");
@@ -54,6 +55,7 @@ public class NumberGuessingGame {
 			
 		} while (counter < MAX_GUESSES && notGuessed);
 		
+		//WHILE LOOP
 		/*
 		while (counter < MAX_GUESSES && notGuessed) {
 			out.println("Guess a number between 1 and 100>");
