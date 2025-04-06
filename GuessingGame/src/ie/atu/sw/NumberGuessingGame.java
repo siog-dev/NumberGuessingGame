@@ -27,7 +27,7 @@ public class NumberGuessingGame {
 		number = random.nextInt(1, 101); //option 3: The best - most "random"
 		
 		boolean notGuessed = true;
-		//int counter = 0;
+		//int counter = 0; //Needed for the Do and While Loops
 		
 		//FOR LOOP
 		for (int counter = 0; counter < MAX_GUESSES && notGuessed; counter++) {
@@ -44,7 +44,7 @@ public class NumberGuessingGame {
 				out.println("Too low!");
 			}
 			//counter++;
-			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");	
+			out.println("You have " + (MAX_GUESSES - (counter + 1)) + " tries left.");	
 		}
 		
 		if (notGuessed) {
