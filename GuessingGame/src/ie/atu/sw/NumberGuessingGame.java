@@ -29,7 +29,35 @@ public class NumberGuessingGame {
 		boolean notGuessed = true;
 		int counter = 0;
 		
+		//FOR LOOP
+		
+		for (int i = 0; i < MAX_GUESSES && notGuessed; i++) {
+			
+			out.println("Guess a number between 1 and 100");
+			
+			int guess = Integer.parseInt(s.next());
+			
+			if (guess == number) {
+				out.println("Correct! Well done :)");
+				notGuessed = false;
+			}else if (guess > number) {
+				out.println("Too high!");
+			}else {
+				out.println("Too low!");
+			}
+			
+			counter++;
+			out.println("You have " + (MAX_GUESSES - counter) + " tries left.");
+			
+			}
+		
+		if (notGuessed) {
+			out.println("Too bad. The correct answer was " + number);
+			
+		}
+		
 		//DO LOOP
+		/*
 		do {
 			
 			out.println("Guess a number between 1 and 100>");
@@ -54,6 +82,7 @@ public class NumberGuessingGame {
 			}
 			
 		} while (counter < MAX_GUESSES && notGuessed);
+		*/
 		
 		//WHILE LOOP
 		/*
