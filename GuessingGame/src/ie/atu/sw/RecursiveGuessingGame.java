@@ -15,6 +15,8 @@ public class RecursiveGuessingGame {
 			System.out.println("Guessed too low " + guess);
 			min = guess + 1;
 		}
+		
+		guess(number, min, max); //This is the recursion
 	}
 
 	public static void main(String[] args) {
